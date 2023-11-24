@@ -170,7 +170,7 @@ route.post('/saveDish', async (req, res) => {
     req.body.photo = imageName;
     const data = await dish.create(req.body)
 
-    photo.mv("D:/document/projects/Restorent/public/dishImage/" + imageName);
+    photo.mv("./public/dishImage/" + imageName);
     if (data) {
         console.log("dish save")
         res.render("addNewDish", {

@@ -29,20 +29,24 @@ app.set('views', 'views')
 //app.set("views","")
 hbs.registerPartials('views/partials')
 
-const connectDB = async () => {
-  try {
-    await mongoose.connect(
-      `mongodb+srv://quytranquil:10102003@bk-food.nfdpanm.mongodb.net/?retryWrites=true&w=majority`,
-    )
+const database = module.exports = () => {
+  const connectionParams = {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
 
-    console.log('MongoDB connected')
+  try {
+    mongoose.connect(
+      "mongodb+srv://admin:simple@dacnpm.dqlgg3g.mongodb.net/mongodb?retryWrites=true&w=majority"
+    );
+    console.log("Database connected")
   } catch (error) {
-    console.log(error.message)
-    process.exit(1)
+    console.log(error)
+    console.log("Database connection failed")
   }
 }
 
-connectDB()
+database()
 
 app.listen(5656, () => {
   console.log('server is start..')
