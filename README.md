@@ -5,8 +5,6 @@ This is simple online food ordering website of purticular restorent.
 Technologys :  nodeJs, express , hbs , HTML , CSS , Bootstrap , JavaScript, mongodb
 
 
-Screenshots :
-
 Home page /index page
 
 **** Food section ****
@@ -17,34 +15,30 @@ Home page /index page
 
 **** Food basket ****
 
-Adding some food in food basket
+Thêm một số thức ăn vào giỏ hàng thức ăn
 
-Search the specific food
+Tìm kiếm thức ăn cụ thể
 
-***********************************************************************
-Admin panel 
+Bảng điều khiển quản trị
 
-Admin dashboard
+Bảng điều khiển quản trị
 
-Admin add the new food (dish)
+Quản trị viên thêm món ăn mới
 
-Admin can see the all food menu
+Quản trị viên có thể xem tất cả menu thức ăn
 
-Admin can update the food details
+Quản trị viên có thể cập nhật chi tiết thức ăn
 
-Admin can remove the food
+Quản trị viên có thể xóa thức ăn
 
-Admin can change the order status
+Quản trị viên có thể thay đổi trạng thái đơn hàng
 
-****************************************************************************
+Bảng điều khiển người dùng thông thường
 
-Normal user Panel
+Bảng điều khiển người dùng
 
-user Dashboard
+Người dùng có thể thêm thức ăn vào giỏ hàng
 
-user can add the food to the basket
+Người dùng đặt món
 
-user order the food
-
-user order status 
-
+Trạng thái đơn hàng của người dùng
