@@ -1,4 +1,4 @@
-# Online-food-ordering-system
+# BK-Food
 
 This is simple online food ordering website of purticular restorent. 
 
@@ -9,33 +9,13 @@ Screenshots :
 
 Home page /index page
 
-![Web capture_17-11-2022_101032_localhost](https://user-images.githubusercontent.com/118426413/202630115-512c6aa6-6c23-4385-b043-77f84da055c0.jpeg)
-
-
-
 **** Food section ****
-
-![Web capture_17-11-2022_101128_localhost](https://user-images.githubusercontent.com/118426413/202630249-fe374bc7-7534-4cae-95ae-27161b2443e6.jpeg)
-
-
 
 **** Register Page ****
 
-![Web capture_17-11-2022_101823_localhost](https://user-images.githubusercontent.com/118426413/202630331-bc42c9a3-e7bf-47c6-885b-14a392fb0691.jpeg)
-
-
-
 **** Login Page ****
 
-![Web capture_17-11-2022_101845_localhost](https://user-images.githubusercontent.com/118426413/202630513-3289bfe0-6a4d-46da-b290-a90a5cd805a7.jpeg)
-
-
-
 **** Food basket ****
-
-![Web capture_17-11-2022_101455_localhost](https://user-images.githubusercontent.com/118426413/202630610-51c9e22e-415f-41ae-b767-a053a8621b79.jpeg)
-
-
 
 Adding some food in food basket
 
@@ -100,34 +80,10 @@ Admin can change the order status
 Normal user Panel
 
 user Dashboard
- 
-![Web capture_17-11-2022_103844_localhost](https://user-images.githubusercontent.com/118426413/202631885-355b698e-c4f8-4626-a99f-5e82112339d7.jpeg)
-
-
 
 user can add the food to the basket
 
-![Web capture_17-11-2022_10481_localhost](https://user-images.githubusercontent.com/118426413/202631983-6934f04e-a5a8-47c1-ae7d-d9daa8f92c14.jpeg)
-
-
-
 user order the food
 
-![Web capture_17-11-2022_103956_localhost](https://user-images.githubusercontent.com/118426413/202632033-c67d45e0-d770-440f-943b-b500ac902d48.jpeg)
-
-
-
 user order status 
-
-![Web capture_17-11-2022_104032_localhost](https://user-images.githubusercontent.com/118426413/202632146-3a01e131-ba0d-4f9e-8868-b53c58409a7d.jpeg)
-
-
-![Web capture_17-11-2022_104319_localhost](https://user-images.githubusercontent.com/118426413/202632184-1971138b-1171-43ff-89f0-8b431a3fc59d.jpeg)
-
-
-
-
-
-
-
 
