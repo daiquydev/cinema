@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Orders</title>
 </head>
 
 <body>
@@ -27,11 +27,11 @@
                                     alt="">
                             </div>
                             <div class="col-md-6 py-3">
-                                <h5 class="primary-color">Order_id : {{this._id}}</h5>
-                                <h4>Dish name : {{this.dname}}</h4>
-                                <h4>Price : <i class="fa fa-usd"></i>{{this.price}}</h4>
-                                <h4>Quantity : {{this.quantity}}</h4>
-                                <h4>States :{{this.states}} </h4>
+                                <h5 class="primary-color">Mã đơn hàng : {{this._id}}</h5>
+                                <h4>Tên món ăn : {{this.dname}}</h4>
+                                <h4>Giá : <i class="fa fa-usd"></i>{{this.price}}</h4>
+                                <h4>Số lượng : {{this.quantity}}</h4>
+                                <h4>Trạng thái :{{this.states}} </h4>
                                 <div class="text-right">
                                     {{#ifCancelOrder this.states this._id}}{{/ifCancelOrder}}
                                     
@@ -44,7 +44,7 @@
                     {{#if orderFood}}
                     {{else}}
                     <div class="text-center my-5">
-                        <h2 class="primary-color">Current order not present...</h2>
+                        <h2 class="primary-color">Chưa có đơn đặt hàng nào...</h2>
                     </div>
                     {{/if}}
 
