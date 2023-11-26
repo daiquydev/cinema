@@ -15,7 +15,7 @@ function addFoodToBasket(did, dname, dprice, dimage) {
         swal.fire({
             toast: "true",
             background: "#A82c48",
-            html: "<h6 class='text-light text-small px-1'>Your fisrt food added to basket</h6>",
+            html: "<h6 class='text-light text-small px-1'>Món ăn đầu tiên được thêm vào giỏ hàng</h6>",
             position: "bottom",
             showConfirmButton: false,
             timer: "2000",
@@ -38,7 +38,7 @@ function addFoodToBasket(did, dname, dprice, dimage) {
             swal.fire({
                 toast: "true",
                 background: "#A82c48",
-                html: "<h6 class='text-light text-small px-1'>Food Quantity increased...</h6>",
+                html: "<h6 class='text-light text-small px-1'>Thêm số lượng món ăn...</h6>",
                 position: "bottom",
                 showConfirmButton: false,
                 timer: "2000",
@@ -58,7 +58,7 @@ function addFoodToBasket(did, dname, dprice, dimage) {
             swal.fire({
                 toast: "true",
                 background: "#A82c48",
-                html: "<h6 class='text-light text-small px-1'>New Food added to basket</h6>",
+                html: "<h6 class='text-light text-small px-1'>Món ăn mới được thêm vào giỏ hàng</h6>",
                 position: "bottom",
 
                 showConfirmButton: false,
@@ -75,7 +75,7 @@ function updateCart() {
     cart = JSON.parse(localStorage.getItem("cart"));
     if (cart == null || cart.length == 0) {
         $(".cart-num").html("( 0 )");
-        $(".cart-body").html("Your cart is empty...");
+        $(".cart-body").html("Chưa có món ăn nào trong giỏ hàng...");
         // $(".data").html("Select the Disire product for buy ....");
         $(".order-btn").addClass("disabled");
         // $(".check-btn2").addClass("d-none");
@@ -90,12 +90,12 @@ function updateCart() {
        
        <table class="table table-hover">
            <tr class="text-style">
-                <th>Pic</th>
-               <th>Name</th>
-               <th>Price</th>
-               <th>Quantity</th>
-               <th>Total</th>
-               <th>Action</th>
+                <th>Hình ảnh</th>
+               <th>Tên</th>
+               <th>Giá</th>
+               <th>Số lượng</th>
+               <th>Tổng</th>
+               <th>Hành động</th>
               
            </tr>
        
@@ -116,7 +116,7 @@ function updateCart() {
                    <td><small>${item.price * item.quantity}</small></td>
                   
                    <td>
-                       <button class="btn btn-danger btn-sm" onclick=" removeBook('${item.id}')">Remove</button>
+                       <button class="btn btn-danger btn-sm" onclick=" removeBook('${item.id}')">Loại bỏ</button>
                    </td>
                   
                    
@@ -130,7 +130,7 @@ function updateCart() {
         table = table + `  
               <tr>
               
-                   <td colspan='3' class='my-2 '>Total Price : ${totalPrice} </td>
+                   <td colspan='3' class='my-2 '>Giá tiền tổng : ${totalPrice} </td>
                </tr>
                </table>
       
@@ -153,7 +153,7 @@ function removeBook(did) {
     swal.fire({
         toast: "true",
         background: "#fecc0f",
-        html: "<h6 class='text-dark text-small px-1'>Food remove from cart!! </h6>",
+        html: "<h6 class='text-dark text-small px-1'>Món ăn đã được bỏ khỏi giỏ hàng!! </h6>",
         position: "bottom",
 
         showConfirmButton: false,
